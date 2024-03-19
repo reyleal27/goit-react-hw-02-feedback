@@ -1,4 +1,6 @@
-const Section = ({ title, children}) => {
+import PropTypes from 'prop-types';
+
+const Section = ({ title, children }) => {
     return (
         <div className="section">
             <section>
@@ -8,5 +10,10 @@ const Section = ({ title, children}) => {
         </div>
     )
 }
+
+Section.propTypes = {
+    title: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+};
 
 export default Section;
