@@ -49,3 +49,13 @@
   font-size: 24px;
   font-weight: 600;
 }
+
+.section{
+  text-align: center;
+}
+
+.notification{
+  font-size: 18px;
+  color: rgb(39, 18, 200);
+  font-weight: 600;
+}
